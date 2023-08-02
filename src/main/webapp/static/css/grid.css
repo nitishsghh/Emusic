@@ -1,0 +1,247 @@
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+
+}
+@media (min-width: 992px) {
+	
+}
+@media (min-width: 1200px) {
+	
+}
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {	
+	
+}
+@media screen and (min-width: 800px) and (max-width: 600px) {
+	
+}
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+	body {
+		margin:0;
+		padding:0;
+	}
+	.top-bar{
+		text-align:center;
+	}
+	.top-bar .text-right{
+		text-align:center;
+		padding-top:15px;
+	}
+	.nav-bg{
+		padding:10px 0;
+		border-radius:0;
+		-moz-border-radius:0;
+		-webkit-border-radius:0;
+	}
+	.menuzord-menu > li.active > a:before, .menuzord-menu > li:hover > a:before{
+		background:none;
+	}
+	.menuzord-menu ul.dropdown, .menuzord-menu ul.dropdown li ul.dropdown{
+		box-shadow:none;
+	}
+	.menuzord-brand.alternate{
+		margin:0;
+		width:70px;
+	}
+	.menuzord-responsive .menuzord-menu.scrollable {
+		overflow-y: auto;
+		position: relative;
+		z-index: 10000;
+		background: #FFF;
+	}
+	.nav-bg{
+		padding:0;
+	}
+	
+	.callout-1 h1{
+		margin:0 0 20px 0;
+		font-size:20px;
+	}
+	.callout-1 h4{
+		font-size:14px;
+	}
+	.callout-3{
+		top:0;
+		border-radius:0;
+		-moz-border-radius:0;
+		-webkit-border-radius:0;
+	}
+	.service-icons{
+		padding-top:40px;
+	}
+	.callout-3 .col-sm-10 h3{
+		margin-bottom:10px;
+		font-size:16px;
+	}
+	.callout-1{
+		padding:40px 0 0 0;
+	}
+	.callout-2{
+		padding:40px 0;
+	}
+	.callout-3 .text-right, .callout-2 .text-right{
+		text-align:left;
+	}
+	.callout-3 .col-sm-10, .callout-2 .col-sm-10{
+		margin-bottom:20px !important;
+	}
+	.main-head{
+		padding:0;
+	}
+	.clients-wrap{
+		margin-top:20px;
+	}
+	.why-choose-img{
+		bottom:10px;
+	}
+	#body-content .why-choose .col-sm-6{
+		margin-bottom:20px;
+	}
+	
+	.footer-links{
+		text-align:left;
+		padding:15px 0 0 0;
+	}
+	
+	#body-content [class*="col-"]:last-child, *[class*="col-"]:last-child .footer-wrap{
+        margin-bottom: 0;
+    }
+	
+	#body-content [class*="col-"], *[class*="col-"] .footer-wrap-2{
+        margin-bottom: 40px;
+    }
+	
+	#body-content .singup-wrap [class*="col-"]{
+        margin-bottom: 15px;
+    }
+	#body-content .singup-wrap [class*="col-"]:last-child, .singup-wrap h1, *[class*="col-"]:last-child .footer-wrap-2, #body-content .smart-mar{
+        margin-bottom: 0px;
+    }
+	.mini-spacer{
+		padding:0;
+	}
+	
+	*[class*="col-"] .footer-wrap{
+        margin-bottom: 60px;
+    }
+	
+	#body-content .fontawesome-icons ul li[class*="col-"]{
+		margin-bottom:8px;
+	}
+	
+	.trust-us .testi-text, .trust-us .testi-details{
+		display:inline-block;
+		vertical-align:auto;
+	}
+	.trust-us .testimonial-wrap{
+		padding:0;
+	}
+	.trust-us .testi-text{
+		padding-bottom:20px;
+		text-align:center;
+	}
+	
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	body {
+		margin:0;
+		padding:0;
+	}
+	.cbp-l-filters-button .cbp-filter-item{
+		display:inline-block;
+		margin:0 5px 10px 5px;
+		padding:5px 9px;
+	}
+}
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+	body {
+		margin:0;
+		padding:0;
+		background:#00F;
+	}
+	.col-md-6.col-lg-6 .shadow-wrapper{
+        margin-bottom: 40px;
+    }
+	.cbp-l-filters-button .cbp-filter-item{
+		display:inline-block;
+		margin:0 5px;
+	}
+	
+}
+
+
+@media (min-width: 768px) and (max-width: 979px) { 
+	body:after{
+		position:absolute;
+		content:"768*979";
+		top:0;
+		right:100px;
+		z-index:1000;
+	}
+	
+	.menuzord-menu > li > a{
+		padding:26px 9px;
+	}
+	.menuzord-brand.alternate{
+		margin:0;
+		width:23%;
+	}
+	.menuzord-responsive .menuzord-menu.scrollable {
+		overflow-y: auto;
+		position: relative;
+		z-index: 10000;
+		background: #FFF;
+	}
+	.menuzord-menu ul.dropdown, .menuzord-menu ul.dropdown li ul.dropdown{
+		box-shadow:none;
+	}
+	.menuzord-menu > li.active > a:before, .menuzord-menu > li:hover > a:before{
+		background:none;
+	}
+	.callout-1 h1{
+		margin:0 0 20px 0;
+		font-size:20px;
+	}
+	.callout-1 h4{
+		font-size:13px;
+	}
+	.callout-3{
+		top:0;
+	}
+	.service-icons{
+		padding-top:70px;
+	}
+	.why-choose-img{
+		bottom:20px;
+	}
+	.callout-3 .col-sm-10 h3{
+		margin-bottom:10px;
+		font-size:16px;
+	}
+	
+	.cbp-l-filters-button .cbp-filter-item{		
+		font-size:11px;
+		text-align:center;
+		padding:5px 8px;
+	}
+	.search-box input{
+		width:85%;
+	}
+ }
+
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+	body {
+		margin:0;
+		padding:0;
+	}
+		.menuzord-brand.alternate{
+		margin-top:6px;
+		width:43% !important;
+	}
+	
+}

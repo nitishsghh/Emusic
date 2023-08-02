@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+
+<tiles-definitions>
+
+	<definition name="welcome" template="/WEB-INF/jsp/welcome.jsp">
+		<put-attribute name="title" value="Welcome Page" />
+		<put-attribute name="header" value="/WEB-INF/tiles/header.jsp" />
+		<put-attribute name="body" value="/WEB-INF/tiles/body.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/tiles/footer.jsp" />
+	</definition>
+	<definition name="homeLayout" template="/WEB-INF/view/jsp/websiteLayout.jsp">
+		<put-attribute name="title" value="" />  
+		<put-attribute name="header" value="/WEB-INF/view/jsp/header.jsp" />
+		<put-attribute name="menu" value="/WEB-INF/view/jsp/menu.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/view/jsp/footer.jsp" />
+	</definition>
+	<definition name="restaurent-definition" 
+       template="/WEB-INF/view/jsp/restaurentLayout.jsp">  
+       <put-attribute name="title" value="Restaurent Dashboard" />  
+       <put-attribute name="header" value="/WEB-INF/view/jsp/restaurent/restaurentHeader.jsp" />  
+       <put-attribute name="menu" value="/WEB-INF/view/jsp/restaurent/restaurentMenu.jsp" />  
+       <put-attribute name="body" value="" />  
+       <put-attribute name="footer" value="/WEB-INF/view/jsp/restaurent/restaurentFooter.jsp" />  
+   </definition>
+	<definition name="home" extends="homeLayout">
+		<put-attribute name="body" value="/WEB-INF/view/jsp/home.jsp" />
+	</definition>
+	<definition name="clientLogin" extends="homeLayout">
+		<put-attribute name="body" value="/WEB-INF/view/jsp/client-login.jsp" />
+	</definition>
+	<definition name="emusicAdmin" extends="restaurent-definition">  
+       <put-attribute name="title" value="Dashboard" />  
+       <put-attribute name="body" value="/WEB-INF/view/pages/emusicAdmin/home.jsp" />  
+   </definition>
+</tiles-definitions>

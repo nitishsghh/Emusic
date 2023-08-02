@@ -1,0 +1,189 @@
+			.blog-article.standard-style .content h1, .blog-article.alternative-style .content h1, .blog-article.timeline-style .content h1, .blog-article.alternate-style .content h1{
+				line-height: 30px;
+				font-weight: 400;
+				color: #444444;
+				font-size: 20px;}
+			.blog-article.alternate-style .info, .blog-article.timeline-style .info, .blog-article.standard-style .info, .blog-article.grid-style .info, .fullscreen-single .info, .recent_news .blog-item .info, .latest_blog .blog-item .info, .blog-article.standard-style .info .post-like a, .blog-article.timeline-style .info .post-like a, .blog-article.creative-style .info .post-like a,  .blog-article.creative-style .info {
+				line-height: 20px;
+				color: #777777;
+				font-size: 11px;}
+			.blog-article.alternate-style .info i, .blog-article.timeline-style .info i, .blog-article.standard-style .info i, .blog-article.grid-style .info, .fullscreen-single .info i, .latest_blog .blog-item .info i, .recent_news .blog-item .info i {
+				font-size: 14px;}
+			.blog-article.timeline-style .post_box, .blog-article.grid-style .gridbox{
+				background-color: #ffffff;}
+			.fullscreen-blog-article .content{
+				background-color: rgba(255,255,255,0);}
+			aside .widget-title, .portfolio_single h4{
+				text-transform: uppercase;
+				line-height: 20px;
+				font-weight: 600;
+				color: #444444;
+				font-size: 13px;}
+			aside .widget-title{
+				margin-bottom: 24px;}
+			aside .widget{
+				margin-bottom: 35px;}
+			.codeless_slider_wrapper{
+				background-color: #222222;}
+			#portfolio-filter ul li a, #faq-filter ul li a{
+				text-transform: uppercase;
+				letter-spacing: 1px;
+				font-weight: 600;
+				color: #bebebe;}
+			#portfolio-filter ul li.active a, #portfolio-filter ul li a:hover, #faq-filter ul li.active a, #faq-filter ul li a:hover{
+				color: #222222;}
+			.content_portfolio.fullwidth .filter-row{
+				background-color: #222222;}
+			.content_portfolio.fullwidth #portfolio-filter ul li a{
+				color: rgba(255,255,255,0.8);}
+			.content_portfolio.fullwidth #portfolio-filter ul li a:hover{
+				color: #ffffff;}
+			.portfolio-item.overlayed .tpl2 .bg{
+				background-color: rgba(255,255,255,0.94);}
+			.portfolio-item.overlayed h4{
+				text-transform: uppercase;
+				font-weight: 600;
+				color: #444444;}
+			.portfolio-item.overlayed h6{
+				text-transform: none;
+				font-weight: 300;
+				color: #888888;
+				font-size: 14px;}
+			.portfolio-item.grayscale .project{
+				background-color: #ffffff;}
+			.portfolio-item.grayscale .project h5{
+				font-weight: 600;}
+			.portfolio-item.grayscale .project h6{
+				color: #bebebe;}
+			.portfolio-item.basic .bg{
+				background-color: rgba(47,162,239,0.74);}
+			.portfolio-item.basic .link{
+				color: #232323;}
+			.portfolio-item.basic .show_text h5{
+				text-align: left;
+				letter-spacing: 0px;
+				font-weight: 500;
+				color: #222;}
+			.portfolio-item.basic .show_text h6{
+				text-align: left;
+				font-weight: 400;
+				color: #9b9b9b;}
+			.accordion.style_2 .accordion-heading .accordion-toggle, .accordion.style_1 .accordion-heading .accordion-toggle{
+				font-weight: 500;
+				color: #545454;
+				font-size: 16px;}
+			.accordion.style_1 .accordion-heading.in_head .accordion-toggle, .accordion.style_2 .accordion-heading.in_head .accordion-toggle{
+				color: #111111;}
+			.block_title.column_title h1{
+				text-align: left;
+				text-transform: uppercase;
+				line-height: 34px;
+				font-weight: 600;
+				color: #323232;
+				font-size: 14px;}
+			.block_title.section_title h1{
+				text-transform: uppercase;
+				line-height: 36px;
+				letter-spacing: 0px;
+				font-weight: 600;
+				color: #222222;
+				font-size: 24px;}
+			.block_title.section_title p{
+				line-height: 24px;
+				font-weight: 300;
+				color: #585858;
+				font-size: 16px;}
+			.odometer{
+				line-height: 48px;
+				letter-spacing: -1px;
+				font-weight: 600;
+				color: #444;
+				font-size: 48px;}
+			.testimonial_carousel .item p{
+				line-height: 30px;
+				font-weight: 300;
+				color: #444;
+				font-size: 18px;}
+			.textbar h2{
+				text-transform: none;
+				letter-spacing: 0px;
+				font-weight: 300;
+				color: #222;
+				font-size: 26px;}
+			.woocommerce #content div.product .product_title, .woocommerce div.product .product_title, .woocommerce-page #content div.product .product_title, .woocommerce-page div.product .product_title, .woocommerce ul.products li.product h6, .woocommerce-page ul.products li.product h6{
+				text-transform: capitalize;
+				font-weight: 500;}
+			
+			
+		.tp-caption.small_400{
+					font-size: 16px;
+					line-height: 24px;
+					font-weight: 400;
+					font-family: "Open Sans";
+					color: rgb(119,119,119);
+					text-decoration: none;
+					text-shadow: none;
+					background-color: transparent;
+					border-width: 0px;
+					border-color: rgb(0,0,0);
+					border-style: none}
+				.tp-caption.black_black{
+					font-size: 36px;
+					line-height: 42px;
+					font-weight: 600;
+					color: rgb(68,68,68);
+					text-decoration: none;
+					text-shadow: none;
+					background-color: transparent;
+					border-width: 0px;
+					border-color: rgb(0,0,0);
+					border-style: none}
+				.tp-caption.small_500{
+					font-size: 22px;
+					line-height: 34px;
+					font-weight: 300;
+					font-family: "Open Sans";
+					color: rgb(47,162,239);
+					text-decoration: none;
+					text-shadow: none;
+					background-color: transparent;
+					border-width: 0px;
+					border-color: rgb(0,0,0);
+					border-style: none}
+				.small_400{
+					font-size: 16px;
+					line-height: 24px;
+					font-weight: 400;
+					font-family: "Open Sans";
+					color: rgb(119,119,119);
+					text-decoration: none;
+					text-shadow: none;
+					background-color: transparent;
+					border-width: 0px;
+					border-color: rgb(0,0,0);
+					border-style: none}
+				.black_black{
+					font-size: 36px;
+					line-height: 42px;
+					font-weight: 600;
+					color: rgb(68,68,68);
+					text-decoration: none;
+					text-shadow: none;
+					background-color: transparent;
+					border-width: 0px;
+					border-color: rgb(0,0,0);
+					border-style: none}
+				.small_500{
+					font-size: 22px;
+					line-height: 34px;
+					font-weight: 300;
+					font-family: "Open Sans";
+					color: rgb(47,162,239);
+					text-decoration: none;
+					text-shadow: none;
+					background-color: transparent;
+					border-width: 0px;
+					border-color: rgb(0,0,0);
+					border-style: none}
+			
+		
